@@ -18,9 +18,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              React Landing Page
-            </a>{" "}
+            <a className="navbar-brand page-scroll" href="#page-top">techkettle</a>{" "}
           </div>
 
           <div
