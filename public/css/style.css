@@ -396,7 +396,7 @@ header .intro-text {
 	display: block;
 	width: 64px;
 	height: 64px;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 }
 .testimonial-content {
 	position: relative;
@@ -408,7 +408,8 @@ header .intro-text {
 	font-style: italic;
 }
 .testimonial-meta {
-	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 10px;
 	font-size: 15px;
 	font-weight: 600;
 	color: #666;

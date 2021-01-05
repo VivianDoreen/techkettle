@@ -1,25 +1,25 @@
 import React, { Component } from "react";
 
-export class testimonials extends Component {
+export class WhyChooseUs extends Component {
   render() {
     return (
       <div id="testimonials">
         <div className="container">
           <div className="section-title text-center">
-            <h2>What our clients say</h2>
+            <h2>Why Choose Us</h2>
           </div>
           <div className="row">
             {this.props.data
               ? this.props.data.map((d, i) => (
                   <div key={`${d.name}-${i}`} className="col-md-4">
                     <div className="testimonial">
+                      {/* <div style={{textAlign:'center', marginBottom:'10px'}}>{d.title}</div> */}
+                      <div className="testimonial-meta">{d.title}</div>
                       <div className="testimonial-image">
-                        {" "}
-                        <img src={d.img} alt="" />{" "}
+                        <i className={d.icon} style={{color:'rgb(98,117,254)'}}></i>
                       </div>
                       <div className="testimonial-content">
                         <p>"{d.text}"</p>
-                        <div className="testimonial-meta"> - {d.name} </div>
                       </div>
                     </div>
                   </div>
@@ -32,4 +32,4 @@ export class testimonials extends Component {
   }
 }
 
-export default testimonials;
+export default WhyChooseUs;

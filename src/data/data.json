@@ -2,7 +2,7 @@
     "Header": {
 
         "title": "techkettle",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "paragraph": "Leading Global ICT solution Company specializing in building sustainable models in the business, health, education and agricultural sector through application of modern technology."
 
     },
     "About": {
@@ -53,35 +53,35 @@
 
 
     ],
-    "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+    "WhyChooseUs": [{
+            "title":"The Team",
+            "icon": "fa fa-group",
+            "text": "\"We ensure to retain specialized and experienced team members that can over come technological changes.\""
         },
         {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "title":"Commitment",
+            "icon": "fa fa-comment",
+            "text": "\"We vouch to build high-quality and easy-to-use solutions promptly by utilizing state-of-the-solutions\""
         },
         {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "title":"One Family",
+            "icon": "fa fa-heart",
+            "text": "\"Our Teams Coherence and unity are the key to our succes. We as a professional team, can better accomplish our mission and achieve our values\""
         },
         {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "title":"Trust",
+            "icon": "fa fa-id-card",
+            "text": "\"We ensure full transparency and integrity in our bussiness dealings as we believe those values maintained our repute and customer's trust\""
         },
         {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "title":"Quality",
+            "icon": "fa fa-star",
+            "text": "\"We carefully crafted a realiable workflow to execute our development plans with the highest software quality standards.\""
         },
         {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "title":"Innovation",
+            "icon": "fa fa-handshake-o",
+            "text": "\"We encourage creativity in our workspace to achieve distiguished ideas as we believe that innovation in integral to futuristic applications\""
         }
     ],
     "Team": [{
