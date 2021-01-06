@@ -5,19 +5,17 @@ export class Team extends Component {
     return (
       <div id="team" className="text-center">
         <div className="container">
-          <div className="col-md-8 col-md-offset-2 section-title">
+          <div>
             <h2>Meet the Team</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+            A strong team are the foundation of a successful business
             </p>
           </div>
-          <div id="row">
+          <div id='row-team'>
             {this.props.data
               ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+                  <div  key={`${d.name}-${i}`} >
                     <div className="thumbnail">
-                      {" "}
                       <img src={d.img} alt="..." className="team-img" />
                       <div className="caption">
                         <h4>{d.name}</h4>

@@ -415,6 +415,10 @@ header .intro-text {
 	color: #666;
 }
 /* Team Section */
+#row-team{
+	display: flex;
+	justify-content: space-between;
+}
 #team {
 	padding: 100px 0;
 }
@@ -422,7 +426,9 @@ header .intro-text {
 	margin: 5px 0;
 }
 #team .team-img {
-	width: 240px;
+	width: 192px;
+	height: 192px;
+	object-fit: cover;
 }
 #team .thumbnail {
 	background: transparent;

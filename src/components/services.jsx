@@ -8,8 +8,7 @@ export class Services extends Component {
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+            Being the best in our field means that we are committed to every project, we have ingenious ideas that become reality and make clients happy.
             </p>
           </div>
           <div className="row">
