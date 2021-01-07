@@ -16,7 +16,7 @@ export class WhyChooseUs extends Component {
                       {/* <div style={{textAlign:'center', marginBottom:'10px'}}>{d.title}</div> */}
                       <div className="testimonial-meta">{d.title}</div>
                       <div className="testimonial-image">
-                        <i className={d.icon} style={{color:'rgb(98,117,254)'}}></i>
+                        <i className={`${d.icon} fa-3x`} style={{color:'rgb(98,117,254)'}}></i>
                       </div>
                       <div className="testimonial-content">
                         <p>"{d.text}"</p>
