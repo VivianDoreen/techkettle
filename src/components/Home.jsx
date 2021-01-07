@@ -28,9 +28,9 @@ export class Home extends Component {
         <Header data={this.state.landingPageData.Header} />
         <About data={this.state.landingPageData.About} />
         <Services data={this.state.landingPageData.Services} />  
-        <Testimonials data={this.state.landingPageData.Testimonials} />
         {/* <Gallery /> */}
         <WhyChooseUs data={this.state.landingPageData.WhyChooseUs} />
+        <Testimonials data={this.state.landingPageData.Testimonials} />
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )
