@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Navigation from './components/navigation';
 import Header from './components/header';
-import Features from './components/features';
+import HowWeWork from './components/howWeWork';
 import About from './components/about';
 import Services from './components/services';
 import Gallery from './components/gallery';
@@ -9,6 +9,8 @@ import WhyChooseUs from './components/WhyChooseUs';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
+import Home from  './components/Home'
+import {Switch, BrowserRouter as Router, Route} from 'react-router-dom'
 
 export class App extends Component {
   state = {
@@ -25,15 +27,14 @@ export class App extends Component {
   render() {
     return (
       <div>
+        <Router>
         <Navigation />
-        <Header data={this.state.landingPageData.Header} />
-        <Features data={this.state.landingPageData.Features} />
-        <About data={this.state.landingPageData.About} />
-        <Services data={this.state.landingPageData.Services} />
-        <Gallery />
-        <WhyChooseUs data={this.state.landingPageData.WhyChooseUs} />
-        <Team data={this.state.landingPageData.Team} />
-        <Contact data={this.state.landingPageData.Contact} />
+          <Switch>
+            <Route path='/' exact component = {Home}/>
+            <Route path='/how-we-work' exact render={(props=>(<HowWeWork {...props} data={this.state.landingPageData.HowWeWork} />))} />
+            <Route path='/team' exact render = {(props)=>(<Team {...props} data={this.state.landingPageData.Team} />)}/>
+          </Switch>
+        </Router>
       </div>
     )
   }

@@ -2,6 +2,10 @@ import React, { Component } from "react";
 
 export class Contact extends Component {
   render() {
+
+ const cc = this.props.data?this.props.data.phone.map(x=>x.phoneNumber): null;
+//  cc.map(x=>x.phoneNumber)
+ console.log(cc);
     return (
       <div>
         <div id="contact">
@@ -74,8 +78,8 @@ export class Contact extends Component {
                 <p>
                   <span>
                     <i className="fa fa-phone"></i> Phone
-                  </span>{" "}
-                  {this.props.data ? this.props.data.phone : "loading"}
+                  </span>
+                  {this.props.data ? this.props.data.phone.map(contact=><p>{contact.phoneNumber}</p>): "loading"}
                 </p>
               </div>
               <div className="contact-item">
@@ -117,9 +121,9 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
-              <a href="http://www.templatewire.com" rel="nofollow">
-                TemplateWire
+              &copy; 2020 Design by{" "}
+              <a href="https://techkettle.herokuapp.com/" rel="nofollow">
+                techkettle
               </a>
             </p>
           </div>

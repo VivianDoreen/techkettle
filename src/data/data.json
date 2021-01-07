@@ -98,14 +98,14 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "address": "Kampala, Uganda",
+        "phone": [{"phoneNumber":"+256 700 729 687"}, {"phoneNumber":"+256 777 213 952"}],
+        "email": "techkettle2@gmail.com",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": {
+    "HowWeWork": {
             "img": "img/HowWeWork/01.jpeg"
         }
 }

@@ -12,13 +12,12 @@ export class Navigation extends Component {
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"
             >
-              {" "}
               <span className="sr-only">Toggle navigation</span>{" "}
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">techkettle</a>{" "}
+            <a className="navbar-brand page-scroll" href="/">techkettle</a>{" "}
           </div>
 
           <div
@@ -26,9 +25,9 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
-              <li>
-                <a href="#features" className="page-scroll">
-                  Features
+            <li>
+                <a href="/" className="page-scroll">
+                  Home
                 </a>
               </li>
               <li>
@@ -47,12 +46,17 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
+                <a href="/how-we-work" className="page-scroll">
+                  How we work
+                </a>
+              </li>
+              <li>
                 <a href="#testimonials" className="page-scroll">
                   Why Choose Us
                 </a>
               </li>
               <li>
-                <a href="#team" className="page-scroll">
+                <a href="/team" className="page-scroll">
                   Team
                 </a>
               </li>

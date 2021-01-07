@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-export class features extends Component {
-  lo
+export class howWeWork extends Component {
+  
   render() {
     return (
       <div id="features" className="text-center">
@@ -12,8 +12,8 @@ export class features extends Component {
           <div className="row">
             {this.props.data
               ? 
-                <div className="col-xs-6 col-md-3">
-                  {/* <img src={this.props.data.Features['img']}/> */}
+                <div className="col-xs-6 col-md-12">
+                  <img src={this.props.data.img}/>
                 </div>
               : "Loading..."}
           </div>
@@ -23,4 +23,4 @@ export class features extends Component {
   }
 }
 
-export default features;
+export default howWeWork;
