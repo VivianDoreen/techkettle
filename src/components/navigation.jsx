@@ -40,14 +40,14 @@ export class Navigation extends Component {
                   Services
                 </a>
               </li>
-              {/* <li>
-                <a href="#portfolio" className="page-scroll">
-                  Gallery
+              <li>
+                <a href="#testimonials" className="page-scroll">
+                  Testimonials
                 </a>
-              </li> */}
+              </li>
               <li>
                 <a href="/how-we-work" className="page-scroll">
-                  How we work
+                  How we work 
                 </a>
               </li>
               <li>

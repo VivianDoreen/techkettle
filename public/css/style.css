@@ -89,7 +89,7 @@ hr {
 	font-weight: 400;
 	padding: 8px 2px;
 	border-radius: 0;
-	margin: 9px 20px 0 20px;
+	margin: 9px 15px 0 15px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -401,6 +401,8 @@ header .intro-text {
 	display: block;
 	width: 64px;
 	height: 64px;
+	object-fit: cover;
+
 }
 .testimonial-content {
 	position: relative;

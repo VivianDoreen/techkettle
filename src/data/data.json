@@ -101,10 +101,44 @@
         "address": "Kampala, Uganda",
         "phone": [{"phoneNumber":"+256 700 729 687"}, {"phoneNumber":"+256 777 213 952"}],
         "email": "techkettle2@gmail.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "facebook": "#",
+        "twitter": "#",
+        "youtube": "#"
     },
+    "Testimonials": [{
+        "img": "img/testimonials/07.jpeg",
+        "text": "\"Quality is always there. Top of the game in terms of software companies.\"",
+        "name": "Nathan Nanjaya"
+    },
+    {
+        "img": "img/testimonials/12.jpg",
+        "text": "\"Excellent service and with a “down to earth” approach.\"",
+        "name": "Winfred Namee"
+    },
+    {
+        "img": "img/testimonials/08.jpg",
+        "text": "\"I have used TechKettle for many years and have always found them to have my best interest at heart.\"",
+        "name": "Lawrence Mukuwa"
+    },
+
+
+
+    {
+        "img": "img/testimonials/11.jpg",
+        "text": "\"I have been with TechKettle from the inception of my small company all the way through to what is now a multinational company trading on several continents and have been able to provide exceptional support and advise me all the way through our growth.\"",
+        "name": "Habiba Kichana"
+    },
+    {
+        "img": "img/testimonials/03.jpg",
+        "text": "\"TechKettle is above and beyond their competitors and I have talked and met with the others. Some of them wouldn’t even follow up very well when I was just talking to them about them possibly providing services.\"",
+        "name": "Habib Mohamed"
+    },
+    {
+        "img": "img/testimonials/14.jpg",
+        "text": "\"I know they are going to be honest with me. I am not going to get a subpar product; I know it is going to be good. That is the number one advantage of working with Exhibit Systems because I just do not want to be sold. I want to trust that what I am getting is going to be good.\"",
+        "name": "Viola Namulime"
+    }
+    ],
     "HowWeWork": {
             "img": "img/HowWeWork/01.jpeg"
         }

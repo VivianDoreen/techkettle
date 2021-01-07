@@ -75,12 +75,12 @@ export class Contact extends Component {
                 </p>
               </div>
               <div className="contact-item">
-                <p>
+                <div>
                   <span>
                     <i className="fa fa-phone"></i> Phone
                   </span>
-                  {this.props.data ? this.props.data.phone.map(contact=><p>{contact.phoneNumber}</p>): "loading"}
-                </p>
+                  {this.props.data ? this.props.data.phone.map(contact=><p key={contact.phoneNumber}>{contact.phoneNumber}</p>): "loading"}
+                </div>
               </div>
               <div className="contact-item">
                 <p>
