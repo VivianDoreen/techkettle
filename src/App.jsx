@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import Navigation from './components/navigation';
-import Header from './components/header';
 import HowWeWork from './components/howWeWork';
+import Testimonials from './components/Testimonials';
 import About from './components/about';
 import Services from './components/services';
-import Gallery from './components/gallery';
 import WhyChooseUs from './components/WhyChooseUs';
 import Team from './components/Team';
 import Contact from './components/contact';
@@ -35,6 +34,7 @@ export class App extends Component {
             <Route path='/#services' exact render={(props=>(<Services {...props} data={this.state.landingPageData.Services} />))}/>
             <Route path='/#contact' exact render={(props=>(<Contact {...props} data={this.state.landingPageData.Contact} />))} />
             <Route path='/#why-choose-us' exact render={(props=>(<WhyChooseUs {...props} data={this.state.landingPageData.WhyChooseUs} />))} />
+            <Route path='/#testimonials' exact render={(props=>(<Testimonials {...props} data={this.state.landingPageData.Testimonials} />))} />
             <Route path='/how-we-work' exact render={(props=>(<HowWeWork {...props} data={this.state.landingPageData.HowWeWork} />))} />
             <Route path='/team' exact render = {(props)=>(<Team {...props} data={this.state.landingPageData.Team} />)}/>
           </Switch>

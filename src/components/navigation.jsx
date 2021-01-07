@@ -41,7 +41,7 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="page-scroll">
+                <a href="/#testimonials" className="page-scroll">
                   Testimonials
                 </a>
               </li>
