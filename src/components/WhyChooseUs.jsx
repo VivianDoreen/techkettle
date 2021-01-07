@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class WhyChooseUs extends Component {
   render() {
     return (
-      <div id="testimonials">
+      <div id="why-choose-us">
         <div className="container">
           <div className="section-title text-center">
             <h2>Why Choose Us</h2>

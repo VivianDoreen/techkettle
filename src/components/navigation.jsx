@@ -31,12 +31,12 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <a href="#about" className="page-scroll">
+                <a href="/#about" className="page-scroll">
                   About
                 </a>
               </li>
               <li>
-                <a href="#services" className="page-scroll">
+                <a href="/#services" className="page-scroll">
                   Services
                 </a>
               </li>
@@ -51,7 +51,7 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="page-scroll">
+                <a href="/#why-choose-us" className="page-scroll">
                   Why Choose Us
                 </a>
               </li>
@@ -61,7 +61,7 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="page-scroll">
+                <a href="/#contact" className="page-scroll">
                   Contact
                 </a>
               </li>
