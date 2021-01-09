@@ -4,6 +4,10 @@ import emailjs from 'emailjs-com'
 export class Contact extends Component {
   render() {
 
+    const handleChange = (e) => {
+      console.log(e.target.value, 'VALUE');
+    }
+
     const sendEmail = (e)=>{
       e.preventDefault();
 
@@ -37,6 +41,7 @@ export class Contact extends Component {
                           id="name"
                           className="form-control"
                           placeholder="Name"
+                          onChange={handleChange}
                           required="required"
                         />
                         <p className="help-block text-danger"></p>
@@ -49,6 +54,7 @@ export class Contact extends Component {
                           id="email"
                           className="form-control"
                           placeholder="Email"
+                          onChange={handleChange}
                           required="required"
                         />
                         <p className="help-block text-danger"></p>
@@ -62,6 +68,7 @@ export class Contact extends Component {
                       className="form-control"
                       rows="4"
                       placeholder="Message"
+                      onChange={handleChange}
                       required
                     ></textarea>
                     <p className="help-block text-danger"></p>
