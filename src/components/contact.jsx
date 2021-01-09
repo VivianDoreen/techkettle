@@ -1,11 +1,20 @@
 import React, { Component } from "react";
+import emailjs from 'emailjs-com'
 
 export class Contact extends Component {
   render() {
 
- const cc = this.props.data?this.props.data.phone.map(x=>x.phoneNumber): null;
-//  cc.map(x=>x.phoneNumber)
- console.log(cc);
+    const sendEmail = (e)=>{
+      e.preventDefault();
+
+      emailjs.sendForm('gmail', 'template_k5k4z1o', e.target, 'user_dAxcnm4xD7JpA6bM2XM61')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
+
     return (
       <div>
         <div id="contact">
@@ -19,7 +28,7 @@ export class Contact extends Component {
                     will get back to you as soon as possible.
                   </p>
                 </div>
-                <form name="sentMessage" id="contactForm" noValidate>
+                <form onSubmit={sendEmail} name="sentMessage" id="contactForm" noValidate>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -91,7 +100,7 @@ export class Contact extends Component {
                 </p>
               </div>
             </div>
-            <div className="col-md-12">
+            {/* <div className="col-md-12">
               <div className="row">
                 <div className="social">
                   <ul>
@@ -115,17 +124,7 @@ export class Contact extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div id="footer">
-          <div className="container text-center">
-            <p>
-              &copy; 2020 Design by{" "}
-              <a href="https://techkettle.herokuapp.com/" rel="nofollow">
-                techkettle
-              </a>
-            </p>
+            </div> */}
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
+import Footer from './components/Footer'
 import Home from  './components/Home'
 import {Switch, BrowserRouter as Router, Route} from 'react-router-dom'
 
@@ -38,6 +39,7 @@ export class App extends Component {
             <Route path='/how-we-work' exact render={(props=>(<HowWeWork {...props} data={this.state.landingPageData.HowWeWork} />))} />
             <Route path='/team' exact render = {(props)=>(<Team {...props} data={this.state.landingPageData.Team} />)}/>
           </Switch>
+          <Footer/>
         </Router>
       </div>
     )
