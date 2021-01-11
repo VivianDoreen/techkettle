@@ -596,6 +596,7 @@ color: #777;
 }
 }
 
+	
 @media (max-width:500px){
 	header .intro-text{
 		padding-top: 100px;
@@ -619,3 +620,17 @@ color: #777;
 		text-align: center;
 	}
 }
+
+
+@media (max-width: 400px) {
+	header .intro-text h1{
+		font-size: 40px;
+	}
+	.section-title h2{
+		font-size: 20px;
+		margin-top: 0px;
+	}
+	#about h2{
+		font-size: 20px;
+	}
+	}
