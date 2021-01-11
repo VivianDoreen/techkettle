@@ -13,7 +13,7 @@ export class howWeWork extends Component {
             {this.props.data
               ? 
                 <div className="col-xs-6 col-md-12">
-                  <img src={this.props.data.img}/>
+                  <p id='img-div'><img src={this.props.data.img}/></p>
                 </div>
               : "Loading..."}
           </div>
