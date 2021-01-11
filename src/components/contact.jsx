@@ -2,21 +2,20 @@ import React, { Component } from "react";
 import emailjs from 'emailjs-com'
 
 export class Contact extends Component {
-  render() {
 
-    const handleChange = (e) => {
-      console.log(e.target.value, 'VALUE');
-    }
+  state = {from_name:'', to_name:'', message:''}
+
+  render() {
 
     const sendEmail = (e)=>{
       e.preventDefault();
-
-      emailjs.sendForm('gmail', 'template_k5k4z1o', e.target, 'user_dAxcnm4xD7JpA6bM2XM61')
+      emailjs.sendForm('service_fzln0d5', 'template_k5k4z1o', e.target, 'user_dAxcnm4xD7JpA6bM2XM61')
         .then((result) => {
-            console.log(result.text);
+            console.log(result.text,'PPPPPPPPPP');
         }, (error) => {
-            console.log(error.text);
+            console.log(error.text,'OOOOOOOOO');
         });
+        // this.resetForm
     }
 
     return (
@@ -41,7 +40,7 @@ export class Contact extends Component {
                           id="name"
                           className="form-control"
                           placeholder="Name"
-                          onChange={handleChange}
+                          name='from_name'
                           required="required"
                         />
                         <p className="help-block text-danger"></p>
@@ -51,7 +50,22 @@ export class Contact extends Component {
                       <div className="form-group">
                         <input
                           type="email"
+                          id="name"
+                          className="form-control"
+                          placeholder="Email"
+                          name='email'
+                          required="required"
+                        />
+                        <p className="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    
+                    {/* <div className="col-md-6">
+                      <div className="form-group">
+                        <input
+                          type="email"
                           id="email"
+                          name="email"
                           className="form-control"
                           placeholder="Email"
                           onChange={handleChange}
@@ -59,16 +73,16 @@ export class Contact extends Component {
                         />
                         <p className="help-block text-danger"></p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="form-group">
                     <textarea
                       name="message"
                       id="message"
+                      name="message"
                       className="form-control"
                       rows="4"
                       placeholder="Message"
-                      onChange={handleChange}
                       required
                     ></textarea>
                     <p className="help-block text-danger"></p>

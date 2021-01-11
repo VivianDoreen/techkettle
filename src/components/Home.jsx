@@ -23,7 +23,7 @@ export class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className='home'>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <About data={this.state.landingPageData.About} />

@@ -39,7 +39,7 @@ export class App extends Component {
             <Route path='/how-we-work' exact render={(props=>(<HowWeWork {...props} data={this.state.landingPageData.HowWeWork} />))} />
             <Route path='/team' exact render = {(props)=>(<Team {...props} data={this.state.landingPageData.Team} />)}/>
           </Switch>
-          <Footer/>
+      <Footer/>
         </Router>
       </div>
     )

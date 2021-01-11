@@ -587,8 +587,35 @@ color: #777;
 	border-bottom: 2px solid #608dfd;
 }
 
+.home{
+	overflow-x: hidden;
+}
 @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;
 }
+}
+
+@media (max-width:500px){
+	header .intro-text{
+		padding-top: 100px;
+		padding-bottom: 80px;
+	}
+
+	header .intro-text h1{
+		font-size: 50px;
+	}
+
+	.home{
+		overflow-x: hidden;
+	}
+
+	#about{
+		margin: 0;
+		padding: 0;
+	}
+
+	#about img {
+		text-align: center;
+	}
 }
