@@ -649,7 +649,9 @@ text-align: center;
 	#features{
 		padding-top: 50px;
 	}
-
+#team h2{
+	font-size: 30px;
+}
 	#row-team{
 		display: flex;
 		flex-direction: column;

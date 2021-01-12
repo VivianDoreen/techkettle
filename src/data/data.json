@@ -73,26 +73,26 @@
         }
     ],
     "Team": [{
-            "img": "img/team/14.jpg",
+            "img": "img/team/20.png",
             "name": "Elisha",
             "job": "Software Developer"
         },
         {
-            "img": "img/team/15.jpg",
+            "img": "img/team/16.png",
             "name": "Mary",
             "job": "Marketing Manager"
         }, {
-            "img": "img/team/11.jpg",
+            "img": "img/team/19.png",
             "name": "John",
             "job": "Software Developer"
         },
         {
-            "img": "img/team/12.jpeg",
+            "img": "img/team/17.png",
             "name": "Geoffrey",
             "job": "Software Developer"
         },
         {
-            "img": "img/team/05.jpeg",
+            "img": "img/team/18.png",
             "name": "Nabulo Vivian Doreen",
             "job": "Software Developer"
         }

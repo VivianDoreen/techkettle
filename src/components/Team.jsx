@@ -11,6 +11,7 @@ export class Team extends Component {
             A strong team are the foundation of a successful business
             </p>
           </div>
+          <br/>
           <div id='row-team'>
             {this.props.data
               ? this.props.data.map((d, i) => (
