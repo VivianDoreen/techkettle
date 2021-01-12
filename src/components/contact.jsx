@@ -128,7 +128,6 @@ export class Contact extends Component {
                         />
                       </div>
                     </div>
-
                   </div>
                   <div className="form-group">
                     <textarea
@@ -220,7 +219,7 @@ export class Contact extends Component {
             onClose={handleClose}
             severity="success"
           >
-            Your message has been sent successfully!
+            Thank you, message has been received!
           </Alert>
         </Snackbar>
       </div>
