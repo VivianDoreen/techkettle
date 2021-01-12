@@ -649,6 +649,11 @@ text-align: center;
 	#features{
 		padding-top: 50px;
 	}
+
+	#row-team{
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 
