@@ -422,12 +422,15 @@ header .intro-text {
 	color: #666;
 }
 /* Team Section */
+#team {
+	padding: 100px 0;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
 #row-team{
 	display: flex;
 	justify-content: space-between;
-}
-#team {
-	padding: 100px 0;
+	
 }
 #team h4 {
 	margin: 5px 0;
@@ -641,13 +644,15 @@ text-align: center;
 		text-align: center;
 	}
 	#features img{
-		/* border:1px solid blue; */
 		width:400px;
 		height: 400px;
 	}
 
 	#features{
 		padding-top: 50px;
+	}
+	#team{
+		margin-bottom: 20px;
 	}
 #team h2{
 	font-size: 30px;
