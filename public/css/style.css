@@ -697,3 +697,9 @@ text-align: center;
 			height: 300px;
 		}
 		}
+
+		@media(max-width:2560px){
+			#team{
+				margin-bottom: 400px;
+			}
+		}
