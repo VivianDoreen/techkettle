@@ -1,7 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import logo from './techkettle_logo.png';
 
 export class Navigation extends Component {
   render() {
+    console.log(this.props.logo ? this.props.logo : '', 'PROPS');
     return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
@@ -12,12 +14,24 @@ export class Navigation extends Component {
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"
             >
-              <span className="sr-only">Toggle navigation</span>{" "}
-              <span className="icon-bar"></span>{" "}
-              <span className="icon-bar"></span>{" "}
-              <span className="icon-bar"></span>{" "}
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand page-scroll" href="/">techkettle</a>{" "}
+            <a className="navbar-brand page-scroll" href="/">
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  // border: '1px solid red',
+                  marginTop: '-10px',
+                }}
+              >
+                <img src={logo} /> techkettle
+              </div>
+            </a>
           </div>
 
           <div
@@ -25,7 +39,7 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
-            <li>
+              <li>
                 <a href="/" className="page-scroll">
                   Home
                 </a>
@@ -47,7 +61,7 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="/how-we-work" className="page-scroll">
-                  How we work 
+                  How we work
                 </a>
               </li>
               <li>

@@ -1,4 +1,5 @@
 {
+    "Logo":"img/logo/techkettle_logo.png",
     "Header": {
 
         "title": "techkettle",
@@ -73,7 +74,7 @@
         }
     ],
     "Team": [{
-            "img": "img/team/20.png",
+            "img": "img/team/24.png",
             "name": "Elisha",
             "job": "Software Developer"
         },
@@ -92,7 +93,7 @@
             "job": "Software Developer"
         },
         {
-            "img": "img/team/18.png",
+            "img": "img/team/27.png",
             "name": "Nabulo Vivian Doreen",
             "job": "Software Developer"
         }
