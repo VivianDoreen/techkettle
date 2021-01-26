@@ -3,7 +3,6 @@ import logo from './techkettle_logo.png';
 
 export class Navigation extends Component {
   render() {
-    console.log(this.props.logo ? this.props.logo : '', 'PROPS');
     return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
