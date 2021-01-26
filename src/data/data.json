@@ -75,27 +75,27 @@
     ],
     "Team": [{
             "img": "img/team/24.png",
-            "name": "Elisha",
-            "job": "Software Developer"
+            "name": "Elisha Kyambadde",
+            "job": "Chief Executive Officer"
         },
         {
             "img": "img/team/21.png",
-            "name": "Mary",
-            "job": "Marketing Manager"
+            "name": "Mary Kituyi",
+            "job": "Marketing / Business Development"
         }, {
             "img": "img/team/19.png",
-            "name": "John",
-            "job": "Software Developer"
+            "name": "John Okker",
+            "job": "Chief Technology Officer"
         },
         {
             "img": "img/team/17.png",
-            "name": "Geoffrey",
-            "job": "Software Developer"
+            "name": "Geoffrey Kimbowa",
+            "job": "Research and Development"
         },
         {
             "img": "img/team/27.png",
-            "name": "Nabulo Vivian Doreen",
-            "job": "Software Developer"
+            "name": "Vivian Doreen Nabulo",
+            "job": "Managing Director"
         }
     ],
     "Contact": {
