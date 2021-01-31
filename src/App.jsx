@@ -28,7 +28,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router basename="/">
           <Navigation logo={this.state.landingPageData.Logo} />
           <Switch>
             <Route path="/" exact component={Home} />
@@ -78,7 +78,6 @@ export class App extends Component {
             />
             <Route
               path="/how-we-work"
-              exact
               render={(props) => (
                 <HowWeWork
                   {...props}
@@ -88,7 +87,6 @@ export class App extends Component {
             />
             <Route
               path="/team"
-              exact
               render={(props) => (
                 <Team {...props} data={this.state.landingPageData.Team} />
               )}

@@ -31,12 +31,12 @@
         },
         {
             "icon": "fa fa-desktop fa-spin",
-            "name": "DESKTOP APPLICATION DEV'T",
-            "text": "We offer innovative solutions in desktop software with high professionalism that achieve completely satisfaction for client."
+            "name": "Web Dev't Training / Internship",
+            "text": "Learn to design & develop responsive web applications using HTML5, CSS3, JavaScript & more with our web development training courses."
         },
         {
             "icon": "fa fa-tasks fa-spin",
-            "name": "SOFTWARE PROTOTYPING",
+            "name": "Software Prototyping",
             "text": "Our UX and UI designers take into account key elements like structure, layout, and flow so users can navigate and log into your software product or application seamlessly."
         }
 

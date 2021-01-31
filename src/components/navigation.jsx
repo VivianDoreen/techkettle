@@ -69,7 +69,7 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <a href="/team" className="page-scroll">
+                <a href="team" className="page-scroll">
                   Team
                 </a>
               </li>
