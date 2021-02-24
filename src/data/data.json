@@ -74,7 +74,7 @@
         }
     ],
     "Team": [{
-            "img": "img/team/24.png",
+            "img": "img/team/29.png",
             "name": "Elisha Kyambadde",
             "job": "Chief Executive Officer"
         },
@@ -101,7 +101,7 @@
     "Contact": {
         "address": "Kampala, Uganda",
         "phone": [{"phoneNumber":"+256 700 729 687"}, {"phoneNumber":"+256 777 213 952"}],
-        "email": "techkettle2@gmail.com",
+        "email": "techkettle.info@gmail.com",
         "facebook": "#",
         "twitter": "#",
         "youtube": "#"

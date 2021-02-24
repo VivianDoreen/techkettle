@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export class Team extends Component {
   render() {
@@ -7,15 +7,13 @@ export class Team extends Component {
         <div className="container">
           <div>
             <h2>Meet the Team</h2>
-            <p>
-            A strong team are the foundation of a successful business
-            </p>
+            <p>A strong team is the foundation of a successful business</p>
           </div>
-          <br/>
-          <div id='row-team'>
+          <br />
+          <div id="row-team">
             {this.props.data
               ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} >
+                  <div key={`${d.name}-${i}`}>
                     <div className="thumbnail">
                       <img src={d.img} alt="..." className="team-img" />
                       <div className="caption">
@@ -25,7 +23,7 @@ export class Team extends Component {
                     </div>
                   </div>
                 ))
-              : "loading"}
+              : 'loading'}
           </div>
         </div>
       </div>
