@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export class Services extends Component {
   render() {
@@ -6,16 +6,18 @@ export class Services extends Component {
       <div id="services" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Our Ser</h2>
+            <h2>Our Services Services </h2>
             <p>
-            Being the best in our field means that we are committed to every project, we have ingenious ideas that become reality and make clients happy.
+              Being the best in our field means that we are committed to every
+              project, we have ingenious ideas that become reality and make
+              clients happy.
             </p>
           </div>
           <div className="row">
             {this.props.data
               ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} className="col-md-4">
-                    {" "}
+                  <div key={`${d.name}-${i}`} className="col-md-4">
+                    {' '}
                     <i className={d.icon}></i>
                     <div className="service-desc">
                       <h3>{d.name}</h3>
@@ -23,7 +25,7 @@ export class Services extends Component {
                     </div>
                   </div>
                 ))
-              : "loading"}
+              : 'loading'}
           </div>
         </div>
       </div>
